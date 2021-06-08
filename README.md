@@ -4,9 +4,9 @@ React, TypeScript, Webpack, ESLint, Prettier
 
 ## Lessons
 
-- React のインストール
+- webpack-dev-server の導入
 - build (bundle) された js を html で読み込んで表示する
 
 ```bash
-npm i react react-dom @types/react @types/react-dom
+ npm i webpack-dev-server
 ```
