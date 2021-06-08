@@ -4,5 +4,12 @@ React, TypeScript, Webpack, ESLint, Prettier
 
 ## Lessons
 
-- 環境設定ファイルの作成
-- Webpack の HelloWorld
+- ts のインストール
+
+```bash
+npm i typescript
+```
+
+```bash
+npm i ts-loader
+```
