@@ -4,12 +4,9 @@ React, TypeScript, Webpack, ESLint, Prettier
 
 ## Lessons
 
-- ts のインストール
+- React のインストール
+- build (bundle) された js を html で読み込んで表示する
 
 ```bash
-npm i typescript
-```
-
-```bash
-npm i ts-loader
+npm i react react-dom @types/react @types/react-dom
 ```
