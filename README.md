@@ -6,6 +6,7 @@ React, TypeScript, Webpack, ESLint, Prettier
 
 - webpack ができなかったのでここからは CRA の TypeScript
 - styled-componentsr の導入
+- react-markdown の導入
 
 ```bash
  npx create-react-app ts-markdown --template typescript
@@ -13,4 +14,8 @@ React, TypeScript, Webpack, ESLint, Prettier
 
 ```bash
  npm i styled-components @types/styled-components
+```
+
+```bash
+ npm i react-markdown
 ```
