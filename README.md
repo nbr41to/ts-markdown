@@ -4,9 +4,13 @@ React, TypeScript, Webpack, ESLint, Prettier
 
 ## Lessons
 
-- webpack-dev-server の導入
-- build (bundle) された js を html で読み込んで表示する
+- webpack ができなかったのでここからは CRA の TypeScript
+- styled-componentsr の導入
 
 ```bash
- npm i webpack-dev-server
+ npx create-react-app ts-markdown --template typescript
+```
+
+```bash
+ npm i styled-components @types/styled-components
 ```

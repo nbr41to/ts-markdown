@@ -1,6 +1,18 @@
-import * as React from 'react';
-import { render } from 'react-dom';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { createGlobalStyle } from 'styled-components';
+import App from './App';
 
-const Main = (<h1>Markdown Editor</h1>);
+const GlobalStyle = createGlobalStyle`
+  body * {
+    box-sizing: border-box;
+  }
+`;
 
-render(Main, document.getElementById('app'));
+ReactDOM.render(
+  <React.StrictMode>
+    <GlobalStyle />
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
