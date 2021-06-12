@@ -10,3 +10,11 @@ React, TypeScript, Webpack, ESLint, Prettier
 ```bash
  npm i webpack-dev-server
 ```
+
+再ビルド（リロードは手動）
+
+```json
+  "build": "webpack --mode=production" --watch
+```
+
+※ホットリロードがされない問題に関して

@@ -17,9 +17,10 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'index.js',
-    publicPath: 'dist/',
+    // publicPath: 'dist/', // これいらん
   },
   devServer: {
+    contentBase: 'dist', // このフォルダ内にindex.htmlを作成
     hot: true,
     open: true,
   }
